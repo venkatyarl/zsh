@@ -1,2 +1,2 @@
-# mac-shell-scripts
+# ZSH Scripts
 Shell Scripts for easy mac use
