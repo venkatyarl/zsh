@@ -13,15 +13,13 @@ else
 fi
 
 # Install and set up git
-if ( ! ls -al ~/Desktop | grep "newComputerSetup") | grep -q 'newComputerSetup'; then
-    mkdir newComputerSetup
+if ! ls -al ~/Desktop | grep -q 'newComputerSetup'; then
+    mkdir ~/Desktop/newComputerSetup
 
     curl https://raw.githubusercontent.com/venkatyarl/zsh/main/setupGit.sh --output ~/Desktop/newComputerSetup/setupGit.sh
     if (ls -al ~/Desktop/newComputerSetup | grep "setupGit") | grep -q 'setupGit'; then
         source ~/Desktop/newComputerSetup/setupGit.sh
     fi
-else
-    echo "Unable to create new folder"
 fi
 
 

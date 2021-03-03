@@ -34,8 +34,8 @@ fi
 echo "------------------------------------"
 
 # clone zsh script project
-if ( ! ls -al ~ | grep "projects") | grep -q 'projects'; then
-    mkdir projects
+if ! ls -al ~ | grep -q 'projects'; then
+    mkdir ~/projects
 fi
 
 # Clone Git zsh git repo
