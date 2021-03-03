@@ -39,7 +39,7 @@ if ! ls -al ~ | grep -q 'projects'; then
 fi
 
 # Clone Git zsh git repo
-git@github.com:venkatyarl/zsh.git
+git clone git@github.com:venkatyarl/zsh.git
 
 # Clean up
 source ~/projects/zsh/cleanup.sh
