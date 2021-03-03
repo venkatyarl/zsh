@@ -1,5 +1,4 @@
 # Install Xcode tools
-echo "Installing xcode-stuff"
 echo "------------- Installing xcode-stuff -----------"
 #xcode-select --install
 
@@ -8,18 +7,24 @@ echo "------------- Home Brew -----------"
 if [[ ! $(which brew) ]]; then
     echo "Installing Homebrew"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+else
+    # update Homebrew receipes
+    brew update
 fi
 
-# update Homebrew receipes
-brew update
-
 # Install and set up git
-#if [[ ! $(which git) ]]; then
-    cd ~/Desktop
+if ( ! ls -al ~/Desktop | grep "newComputerSetup") | grep -q 'newComputerSetup'; then
     mkdir newComputerSetup
+
     curl https://raw.githubusercontent.com/venkatyarl/zsh/main/setupGit.sh --output ~/Desktop/newComputerSetup/setupGit.sh
-    source ~/Desktop/newComputerSetup/setupGit.sh
-#fi
+    if (ls -al ~/Desktop/newComputerSetup | grep "setupGit") | grep -q 'setupGit'; then
+        source ~/Desktop/newComputerSetup/setupGit.sh
+    fi
+fi
+
 
 echo "Completed HomeBrew Setup"
+
+echo "------------- Home Brew -----------"
+
 echo "-----------------------------"

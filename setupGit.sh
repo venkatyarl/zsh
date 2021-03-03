@@ -32,4 +32,15 @@ if [ ! -f ~/.ssh/gitHubVenkat ]; then
   read -p "Press [Enter] key after you have added your SSH key to Github..."
 fi
 echo "------------------------------------"
+
+# clone zsh script project
+if ( ! ls -al ~ | grep "projects") | grep -q 'projects'; then
+    mkdir projects
+fi
+
+# Clone Git zsh git repo
+git@github.com:venkatyarl/zsh.git
+
+# Clean up
+source ~/projects/zsh/cleanup.sh
 echo ""
