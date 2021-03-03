@@ -40,4 +40,7 @@ fi
 echo "Cloning Zsh repository"
 git clone git@github.com:venkatyarl/zsh.git
 
+cd ~/projects/zsh
+chmod a+w *.sh
+
 echo "------------- GIT Set up Complete -----------"
