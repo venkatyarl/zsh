@@ -8,9 +8,3 @@
 
 # TODO: Checkout all github projects
 
-if [[ ! $(which git) ]]; then
-    echo "In method"
-    source test.sh
-else
-    echo "In else method"
-fi
