@@ -3,7 +3,6 @@ echo "------------- Started Clean up -----------"
 rm ~/Desktop/newComputerInstall.sh
 rm ~/Desktop/newComputerSetup/*
 rmdir ~/Desktop/newComputerSetup/
-rm ~/projects/zsh/*
-rmdir ~/projects/zsh/
+rm -r ~/projects/zsh/*
 
 echo "------------- Finished Clean up -----------"

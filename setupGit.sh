@@ -31,13 +31,13 @@ if [ ! -f ~/.ssh/gitHubVenkat ]; then
   open "https://github.com/account/ssh"
   read -p "Press [Enter] key after you have added your SSH key to Github..."
 fi
-echo "------------------------------------"
-
 # clone zsh script project
 if ! ls -al ~ | grep -q 'projects'; then
     mkdir ~/projects
 fi
 
 # Clone Git zsh git repo
+echo "Cloning Zsh repository"
 git clone git@github.com:venkatyarl/zsh.git
 
+echo "------------- GIT Set up Complete -----------"
