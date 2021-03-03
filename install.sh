@@ -22,9 +22,6 @@ if ! ls -al ~/Desktop | grep -q 'newComputerSetup'; then
     fi
 fi
 
-
-echo "Completed HomeBrew Setup"
-
-echo "------------- Home Brew -----------"
-
-echo "-----------------------------"
+# Clean up
+source ~/projects/zsh/cleanup.sh
+echo ""

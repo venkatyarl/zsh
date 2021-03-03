@@ -41,6 +41,3 @@ fi
 # Clone Git zsh git repo
 git clone git@github.com:venkatyarl/zsh.git
 
-# Clean up
-source ~/projects/zsh/cleanup.sh
-echo ""
