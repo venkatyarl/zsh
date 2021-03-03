@@ -20,6 +20,8 @@ if ( ! ls -al ~/Desktop | grep "newComputerSetup") | grep -q 'newComputerSetup';
     if (ls -al ~/Desktop/newComputerSetup | grep "setupGit") | grep -q 'setupGit'; then
         source ~/Desktop/newComputerSetup/setupGit.sh
     fi
+else
+    echo "Unable to create new folder"
 fi
 
 
