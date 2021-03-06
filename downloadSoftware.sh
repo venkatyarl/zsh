@@ -22,3 +22,5 @@ curl -o ~/Downloads/Docker.dmg 'https://desktop.docker.com/mac/stable/Docker.dmg
 # whats app
 # MongoDb Compass
 # NoSql Booster
+
+# Download OpenJDK

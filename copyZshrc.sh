@@ -22,4 +22,4 @@ if [[ -f "$SOURCE" ]]; then
     fi
 fi
 
-source $FILE
+source ~/.zshrc
