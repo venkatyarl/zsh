@@ -24,4 +24,4 @@ fi
 
 # Clean up
 source ~/projects/zsh/cleanup.sh
-echo ""
+echo "New Computer Set up Complete. Enjoy... Make sure to thank me!!"

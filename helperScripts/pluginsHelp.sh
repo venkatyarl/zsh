@@ -9,6 +9,7 @@ function pluginsHelp() {
     brewHelp        : Shows all the brew plugin aliases
     mvnHelp         : Shows all the mvn plugin aliases
     gitHelp         : Shows all the git plugin aliases
+    webSearchhelp   : Shows all the WebSearch Plugin aliases
 	"
 }
 
