@@ -9,6 +9,7 @@ brew install bitwarden-cli  # https://formulae.brew.sh/formula/bitwarden-cli
 brew install gradle         # https://formulae.brew.sh/formula/gradle
 brew install groovy         # https://formulae.brew.sh/formula/groovy
 
+brew install jq             # https://stedolan.github.io/jq/
 # TODO: Look at formulas from L https://formulae.brew.sh/formula/
 
 brew install openjdk        # https://formulae.brew.sh/formula/openjdk
