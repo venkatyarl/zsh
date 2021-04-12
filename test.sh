@@ -1,0 +1,2 @@
+OS=$(${OSTYPE})
+echo ${OS}
