@@ -1,0 +1,38 @@
+Software to install:
+
+Programming
+- Intellij: Tomcat/ Wildfly: Gradle
+- Netbeans: Glassfish: Maven
+- phantonjs + casperjs
+- Microsoft Code
+- Spring Tool Suite
+- Adobe Tools
+- Xamarin Studio
+- xcode
+
+
+Tools
+- FileZilla
+- putty
+- Gimp
+- Mysql + Workbench
+- git
+- 7zip
+- Ccleaner
+- Google drive
+- sync google calendar with apple Calendar
+
+Languages
+- Java
+- swift
+- php
+
+Others
+- Printer set up
+- Office Tools
+- Chrome
+- Adobe Tools
+- 
+
+- Organize photos
+- 
