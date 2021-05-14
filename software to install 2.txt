@@ -32,7 +32,3 @@ Others
 - Office Tools
 - Chrome
 - Adobe Tools
-- 
-
-- Organize photos
-- 
